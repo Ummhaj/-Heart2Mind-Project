@@ -7,7 +7,7 @@ const chatbotCloseBtn  = document.querySelector(".close-btn");
 
 
 ///-------awaiting the api key---////
-const API_KEY = "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";
+// const API_KEY = "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";
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
