@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Chatbot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="Script.js" defer></script>
+</head>
+
+<body>
+
+
+    <nav>
+        <img src="./Images/cutestlogo.jpg" alt="logo">
+        <div class="top-nav" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT US</a></li>
+                <li><a href="Chatbot.html">CHATBOT</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="general">
+    <button class="chatbot-toggler ">
+        <i class="fa fa-twitch"></i> <br>
+        <i class="fa fa-times"></i>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <i class=" close-btn fa fa-commenting" ></i>
+                 <p>Hi there! <br>How can i help u today?</p>
+            </li>
+            <li class="chat outgoing">
+
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <i class="fa fa-paper-plane-o"></i>
+
+
+        </div>
+        
+    </div>
+    <div class="message">
+        <h1>OUR CHATBOT!</h1>
+        <P><i>Our chatbot is designed to provide a safe <br> 
+             and supportive space for you to explore  <br>your thoughts and 
+             emotions.What makes <br> us  unique is  our non-judgemental approach <br>
+              as you don't have to worry about your safety <br> because your
+              secrets are safe  with us! our <br> bot is trained on a vest range of
+            mental health <br> topics, from anxiety and  depression to relationships 
+          <br>  and self-care. </i></P>
+    </div>
+    <div class="start">
+        <h1>GET STARTED</h1>
+        <P>Mindful moments start here. What's been on your mind lately? Tap on the message icon to start chatting with our chatbot now!</P>
+    </div>
+</div>
+
+<footer>
+    <ul>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms & Conditions </a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</footer>
+    </div>
+
+<div class="copyright">
+    <p>&copy;2024 Heart2Mind. All rights reserved.</p>
+</div>
+<!---------Javascript for  Toogle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

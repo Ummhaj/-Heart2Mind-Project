@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="general">
+        <nav>
+            <img src="./Images/cutestlogo.jpg" alt="logo">
+            <div class="top-nav" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="Chatbot.html">CHATBOT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="welcome">
+            <h1>WELCOME TO HEART2MIND</h1>
+            <p>Breaking silience,finding support! life isn't always easy,
+             and we all need someone to talk to.<br><b>Heart2Mind</b> is 
+             your digital companion, here to listen, guide and support you 
+             in those tough moments. <br>Whether you're feeling <b>overwhelmed,
+             stressed or just need someone to talk to</b>,we offer a safe,judgment-free zone!
+             </p>
+            <a href="Chatbot.html" class="hero-btn">Start chatting!</a>
+        </div>
+        <section class="how-it-works">
+            <h2>UNLOCK YOUR PATH TO HEALING</h2>
+            <P>We provide 24/7 support,coping strategies and mental wellness tips...... Among which includes:</P>
+        </section>
+             <div class="services">
+                    <div class="counselling">
+                        <img src="./Images/Counselling 2.jpg" alt="sessions">
+                        <p> One-on-one counselling sessions for <br> individuals,couples and families.
+                        </p>
+                    </div>
+                    <div class="counselling">
+                        <img src="./Images/Coach.jpg" alt="life coach">
+                    <p>Coaching services aimed to enable people <br>achieve their  personal and professional goals.</p>
+                    </div>
+                    <div class="counselling">
+                        <img src="./Images/Oline courses 2.jpg" alt="online">
+                        <p>Online courses and tutorials on mental <br> health,wellness,and personal development.</p>
+                    </div>
+                </div>
+        
+        <section class="reasons">
+            <h3>STILL WONDERING WHY CHOOSE US RIGHT?</h3>
+            <p>Explore some of the benefits:</p>
+        </section>
+
+            <div class="Pic">
+            <div class="Emotional-intelligence">
+                <img src="./Images/Emotional intelligence.jpg" alt="">
+                <p><b>Emotional intelligence</b> <br>We offer resources such as videos,articles.. etc to help develop emotional intelligence.</p>
+                </div>
+                <div class="Emotional-intelligence">
+                    <img src="./Images/Growth 2.jpg" alt="">
+                    <p><b>Empowerment and growth</b><br>We provide tools or coaching to help
+                         individuals achieve goals and develop growth mindset.
+                    </p>
+                </div>
+
+                <div class="Emotional-intelligence">
+                    <img src="./Images/faces.jpg" alt="">
+                 <p><b>Stress reduction</b><br>Guided meditations,yoga classes etc that help culivate
+                  present-moment awareness and reduces stress. </p>
+                </div>
+                <div class="Emotional-intelligence">
+                    <img src="./Images/confidential 1.jpg" alt="">
+                    <p> <b>Confidential Conversation</b><br> Your privacy is our priority.speak openly,safely
+                         and anonymously without being judged.</p>
+                </div>
+        </div>
+        
+        </div>
+        
+    
+    <section class="testimonials">
+    <h2>WHAT OUR USERS SAY</h2>
+     <p><i>"Heart2Mind has improved my
+          relationships with friends and family.I'm more empathetic, <br>understanding and communicative"</i>
+         <small>-Rachel G</small></p><br><br>
+   <p><I>"Heart2Mind provided a safe space for me to process my emotions and work through <br> challenging experiences.I'm grateful
+        for the healing and growth i have experienced"</I><small>-Sarah </small><br><br>
+        <P><I>"The Heart2Mind approach has helped me develop a deeper understanding of myself and others</I>
+            <small>-Ummhaj A</small><br><br>
+        </P>
+     <p><i>"I love that i can chat whenever i need support,without being judged"</i><small>-John</small></p>
+    </p>
+    </section>
+    <div  class="resources">
+        <h2>IMMEDIATE ASSISTANCE!</h2>
+        <ul>
+      <li>Join our online support groups to connect with others who share similar experiences and challenges.</li>
+         <li>We offer counselling services with licensed therapists.You can schdule a session online or in-person.</li>
+            <li>If you are experiencing a mental health crisis,please call our crisis hotline at
+                  <a class="hotline"  href="https://wa.me/+2348152360233" target="_blank"> <i class="fa fa-whatsapp"></i>
+                    Heart2Mind!</a> </li>
+        </ul>
+    </div>
+    <section class="cta">
+<h2>START YOUR  JOURNEY TODAY!</h2>
+<a href="Chatbot.html" class="final-btn">Start Now!</a>
+    </section>
+
+<footer>
+    <ul>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms & Conditions </a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</footer>
+    </div>
+
+<div class="copyright">
+    <p>&copy;2024 Heart2Mind. All rights reserved.</p>
+</div>
+<!---------Javascript for  Toogle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+      
+</body>
+</html>

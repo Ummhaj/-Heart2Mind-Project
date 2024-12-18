@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="Contact us.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="general">
+        <nav>
+            <img class="logo" src="./Images/cutestlogo.jpg" alt="logo">
+            <div class="top-nav" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="Chatbot.html">CHATBOT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="welcome">
+            <h1>WELCOME TO HEART2MIND</h1>
+            <p>We help you through your healing process and help discover your inner potiential that you never imagine existed....</p>
+        </div>
+
+        <div class="contact">
+        
+             <h1>CONTACT US</h1>
+            <p>If you have any questions, concerns, or just need someone to talk to ,we are here to listen.</p>
+            <img src="./Images/Contact us.jpg" alt="">
+        
+                <h2>GET IN TOUCH</h2>
+            
+                <ul>
+                    <li><i class="fa fa-envelope-o"></i> mailto:@heart2mind.com</li>
+                    <li><i class="fa fa-phone"></i>+234-8152360233</li>
+                    <li><i class="fa fa-map-marker"></i> 23 Hajiya Amina street, Garki, Abuja, Nigeria.</li>
+                </ul>
+        </div>
+            
+        
+        <div class="social">
+            <h1>SOCIAL MEDIA</h1>
+            <p>Stay connected with us on social media:</p>
+            <ul>
+                <li><i class="fa fa-facebook"></i> @heart2mind</li>
+                <li><i class="fa fa-twitter"></i> @heart2mind</li>
+                <li><i class="fa fa-instagram"></i> @heart2mind</li>
+            </ul>
+        </div>
+        <div class="form">
+            <h1>CONTACT FORM</h1>
+            <P>If you'd prefer to send us a message directly,please use the form below:</P><br>
+            <form>
+                <label>Name:</label><input type="text"><br><br>
+                <label>Email:</label><input type="email"><br><br>
+                <textarea class="ms" cols="15" rows="6">Message</textarea><br><br>
+                <a href="" class="sub">Submit!</a>
+            </form>
+        </div>
+
+    <footer>
+        <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms & Conditions </a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </footer>
+        </div>
+    
+    <div class="copyright">
+        <p>&copy;2024 Heart2Mind. All rights reserved.</p>
+    </div>
+
+    </main>
+    <!---------Javascript for  Toogle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

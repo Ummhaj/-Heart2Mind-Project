@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="general">
+        <nav>
+            <img class="logo" src="./Images/cutestlogo.jpg" alt="logo">
+            <div class="top-nav" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="Chatbot.html">CHATBOT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        <div class="header">
+<h1>Welcome To Heart2Mind </h1>
+
+<P> <i>We believe mental wellness begins with<br>
+    understanding the connection between our<br>
+    emotions and thoughts Our chatbot is designed<br>
+    to provide a safe,supportive, and  confidential<br>
+    space where you can explore your feelings,<br>
+    gain insights and receive personalised<br>
+    resources to help you navigate life's challenges.
+    </i>
+
+</P> 
+<img src="./Images/About 2.jpg" alt="">
+</div>
+<section class="M-V">
+<div class="aim">
+    <h1>Our Mission</h1>
+    <p>We combine compassionate conversations with cutting-edge AI technology to make
+         mental health support accessible to everyone,everytime,anywhere.
+     We also want to bridge the gap
+         between heart and  mind,empowering individuals to take charge of their mental well-being.
+       <b>  Above all,we want to  be intermediary between your heart and mind,because when the heart and mind <br> align,true healing 
+        begins!</b>  </p>
+    </div>
+    <section class="aim">
+        <h1>Our Values</h1>
+        <p>
+    We believe that vulerability is a  strength,not a weakness, We strive
+ to create a safe space where individuals feel comfortable sharing their true selves
+We are dedicated to helping  individuals find their moment of <b>transformation.</b>we believe that 
+                everyone experience a breakthrough that changes their life for better.</li>
+        </p>
+
+    </section>
+</section>
+
+    <footer>
+        <ul>
+            <li><a href="">Terms of services</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+
+
+        <p>&copy;2024 Heart2Mind. All rights reserved.</p>
+    </footer>
+    </div>
+    
+<!---------Javascript for  Toogle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

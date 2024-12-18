@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato",sans-serif;
+}
+.logo{
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    padding-top: 17px
+}
+
+
+
+.top-nav{
+    flex: 1;
+    text-align: right;
+}
+
+.top-nav ul li {
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.top-nav ul li a{
+    text-decoration: none;
+    color:#191970;
+}
+
+.top-nav ul li a:hover{
+    color: black;
+    cursor:grabbing;
+}
+
+
+nav .fa{
+    display: none;
+}
+
+
+.top-nav ul li ::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background:black;
+    display: block;
+    margin: auto;
+    transform: 0.5s;
+
+}
+.top-nav ul li :hover::after{
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header p{
+    padding:25px 18px;
+    font-size: 20px;
+    color:black;
+}
+
+.header h1{
+    
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img{
+    height: 580px;
+    width: 95%;
+}
+
+.aim{
+    /* padding-left: 30px; */
+    line-height: 1.5em;
+    /* padding-right: 30px; */
+    flex-basis: 31%;
+    background: rgb(223, 192, 153);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+
+.aim h1{font-size: 30px;
+padding: 10px 8px;
+text-align: center;}
+
+.aim p{
+    font-size: 18px;
+}
+
+
+
+ .M-V{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(60, 63, 58, 0.7),rgba(60, 63, 58, 0.7));
+    padding-top: 25px;
+    margin-bottom: 25px;
+    width: 96%;
+    margin-left: 25px;
+    
+ }
+ .M-V P{
+    text-align: center;
+ }
+
+
+ footer{
+    text-align: center;
+ }
+
+ footer ul li{
+    list-style: none;
+ }
+
+ footer ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: black;
+ }
+
+ footer ul li :hover{
+    color:rgb(199, 141, 84);
+    cursor: grab;
+ }
+
+ footer p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+
+
+ @media(max-width:1024px){
+
+    .logo{
+        height: 120px;
+        width: 130px;
+        border-radius: 50%;
+        margin: auto;
+        display: flex;
+        padding-top: 17px;
+    }
+
+    .top-nav ul li{
+        display: block;
+    }
+
+    /* ---styling for the toogle menu */
+    .top-nav{
+        position: absolute;
+        background:rgb(177, 181, 182);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        
+    }
+    nav .fa{
+        display:block;
+        color: black;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 22px;
+        text-align: right;
+    }
+
+    .top-nav ul{
+        padding: 30px;
+    }
+
+    .header{
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .header p{
+    padding-left: 15px;
+    padding-right: 15px;
+        font-size: 17px;
+        color:black;
+        line-height: 1.5em;
+    }
+    
+    .header h1{
+        
+        font-size: 20px;
+        text-shadow: 2px 2px 5px black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    img{
+        height: 380px;
+        width: 89%;
+        margin-left: 5px;
+    }
+    
+.aim{
+    line-height: 1.5em;
+    background: rgb(223, 192, 153);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 18px 12px;
+    box-sizing: border-box;
+
+}
+
+.M-V{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(60, 63, 58, 0.7),rgba(60, 63, 58, 0.7)),url(Images/value.jpg);
+    padding-top: 25px;
+    margin-bottom: 30px;
+    width: 89%;
+    margin-left: 18px;
+    
+ }
+ 
+.aim h1{
+    font-size: 22px;
+    padding: 10px 8px;
+    text-align: center;
+}
+    
+    .aim p{
+        font-size: 18px;
+    }
+
+    
+
+ footer{
+    text-align: center;
+ }
+
+ footer ul li{
+    list-style: none;
+ }
+
+ footer ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: black;
+ }
+
+ footer ul li :hover{
+    color:rgb(199, 141, 84);
+    cursor: grab;
+ }
+
+ footer p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+    
+}

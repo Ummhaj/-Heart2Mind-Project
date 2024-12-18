@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="Blog.css">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <nav>
+            <img class="logo" src="./Images/cutestlogo.jpg" alt="logo">
+            <div class="top-nav" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="Chatbot.html">CHATBOT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <section class="hero">
+            <h1>WELCOME TO HEART2MIND</h1>
+    
+            <p> <i>A  mental platform dedicated to helping <br> individuals cultivate
+              emotional intelligence,<br> self-awareness and  inner peace </i></p>
+              <button><a href="About.html">Explore More!</a></button>
+
+    </section>
+
+    <div class="pic">
+        <img src="./Images/Blog 2.jpg" alt="">
+    </div>
+    <div class="header">
+
+    <section class="blog-post">
+        <h2>The Power Of Vulnerability:How Embracing Your True Self Can Improve Mental Health</h2>
+        <p>Vulnerability is often seen as weakness, but what if it was actually a strenght? Embracing Vulnerability
+        can be a powerful tool for improving mental health and well-being. In this post, we'll explore the concept of vulnerability and how it can be 
+        ba a game-changer for your mental health.
+        </p>
+        <h3>What is Vulnerability?</h3>
+        <p>Vulnerability is the act of being open and honest about your thoughts, feelings and experiences. It's 
+            about being willing to take risks and susceptible to emotional hurt. Vulnerability requires courage 
+            and trust, but it can also lead to a deeper connections and a greater sense of self-awareness.
+        </p>
+        <h3>The Benefits Of Vulnerability For Mental Health</h3>
+        <ol>
+            <li><b>Increased Self Awareness</b>: Vulnerability allows you to be tap into your thoughts,feelings
+                 and behaviours, giving you a deeper understanding of yourself.
+            </li>
+            <li><b>Improved Relationships</b>: When you're vulnerable, you're more likely to form meaningful connections
+                with others ,leading to stronger, more supportive Relationships
+            </li>
+            <li><b>Reduced Stress And Anxiety</b>: Vulnerability can help you process and 
+                release emotions,reducing stress and anxiety.</li>
+                <li><b>Increased Resilience</b>: By embracing vulnerability,you can develop a greater sense of resilence,helping you 
+                    bounce back from challenges and setbacks.
+                </li>
+        </ol>
+
+        <h3>Overcoming Fear And Shame</h3>
+        <ul>
+            <li><b>Recognize your fears</b>: Identify what's holding you back from being vulnerable.</li>
+            <li><b>Challenges negative self-talk</b>: Replace self-criticism with self-compassion .</li>
+            <li><b>Practice self-care</b>: Take care of physical, emotional and mental well-being.</li>
+            <li><b>Seek professional help</b>: If fear or shame is overwhelming,consider seeking help from a mental health professional
+
+            </li>
+
+        </ul>
+
+    </section>
+    </div>
+</div>
+</div>
+
+<footer>
+    <ul>
+        <li><a href="">Terms of services</a></li>
+        <li><a href="">Privacy policy</a></li>
+        <li><a href="">Contact us</a></li>
+    </ul>
+    <p>&copy;2024 Heart2Mind.All rights reserved.</p>
+</footer>
+   </main>
+   
+<!---------Javascript for  Toogle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
